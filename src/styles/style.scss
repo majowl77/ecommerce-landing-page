@@ -1,6 +1,6 @@
 // src/styles/style.scss
 
-$primary-color: #3498db;
+$primary-color: rgb(243,235,227);
 
 body {
   font-family: Arial, sans-serif;
@@ -10,4 +10,7 @@ body {
   background-color: $primary-color;
   color: white;
   padding: 1rem;
+}
+.img{
+
 }
