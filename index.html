@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="dist/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>SCSS Project</title>
 </head>
 
@@ -24,48 +25,56 @@
 
   <!-- Main -->
   <main>
+      <!-- catchy Headlines -->
     <div class="container">
       <div class="catchyHeadlines"> 
         <h1>Elevate Every Moment with Our Stunning Flower Arrangements</h1>
         <h3> We curate every bouquet with love and care </h3>
         <button class="actionBtn">Send Happiness</button>
       </div>
+
+
+      <!-- products -->
       <div class="products">
         <div id="firstimage">
           <figure>
-            <img src="j.jpg" alt="the first image" style="width:100%">
+            <img src="src/lavender.jpeg" alt="the first image" style="width:100%">
             <p class="titles">Lavender Dream Bouquet</p>          
             <figcaption>Indulge in the calming fragrance of lavender with our Lavender Dream Bouquet</figcaption>
           </figure>
         </div>
         <div id="secondimage">
           <figure>
-            <img src="j.jpg" alt="the second image" style="width:100%">
+            <img src="src/orchid.jpeg" alt="the second image" style="width:100%">
             <p class="titles">Exquisite Orchid Paradise</p>          
             <figcaption>Graceful and enchanting, our white orchid plant is a symbol of<br> refinement and luxury. </figcaption>
           </figure>
         </div>
         <div id="thirdimage">
           <figure>
-            <img src="j.jpg" alt="the third image" style="width:100%">
+            <img src="src/daisy.jpeg" alt="the third image" style="width:100%">
             <p class="titles">Sun-Kissed Daisy Bouquet</p>          
             <figcaption>These cheerful blooms are perfect for celebrating birthdays,<br> sending get-well wishes, or simply spreading happiness.</figcaption>
           </figure>
         </div>
       </div>
+
+        <!-- Section testimonials -->
       <section id="testimonials">
         <div class="testimonials-container">
-          <img src="person.jpg" alt="Avatar" style="width:90px">
+          <i class="fa-solid fa-user"></i>
           <p><span>Jaber Ail.</span> Customer.</p>
           <p>The bouquet I ordered was absolutely beautiful! It arrived on time and was <br> even more stunning than the pictures online. Thank you for making our anniversary special.</p>
         </div>
-        
+    
         <div class="testimonials-container">
-          <img src="person2.jpg" alt="Avatar" style="width:90px">
+          <i class="fa-solid fa-user"></i>
           <p><span >Rebecca Flex.</span> Customer.</p>
           <p>I was impressed with the incredible service I received. The flowers were fresh, <br> the packaging was perfect, and the delivery was right on schedule. I'll definitely be ordering from you again.</p>
         </div>
       </section>
+
+        <!-- Section form Newsletter -->
       <section class="formNewsletter">
         <form action="#">
           <div class="form-container">
@@ -88,6 +97,8 @@
       </section>
     </div>
   </main>
+
+
   <!-- Footer -->
   <footer>
 
