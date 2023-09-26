@@ -8,18 +8,18 @@
   <link rel="stylesheet" href="dist/style.css">
  <!-- FontAwesome -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- <title>SCSS Project</title>
+ <title>Flower Shop</title>
 </head>
 
   <!-- Header -->
 
-  <header class="header">
+  <header class="header" role="button" aria-pressed="true">
     <nav>
       <img src="src/hicks.png" alt="the flower shop logo" style="width: 90px; height:90px ;"/>
         <a href="/html/">Home</a> |
         <a href="/css/">Occasions</a> |
         <a href="/js/">Gifts</a> |
-         <a href="/python/">About Us</a>
+        <a href="/python/">About Us</a>
     </nav>
   </header>
 
@@ -28,30 +28,30 @@
       <!-- catchy Headlines -->
     <section role="catchy Headlines"> 
     <div class="container">
-      <div class="catchyHeadlines"> 
+      <div role="button" aria-pressed="true" tabindex="0" class="catchyHeadlines"> 
         <h1>Elevate Every Moment with Our Stunning Flower Arrangements</h1>
         <h3> We curate every bouquet with love and care </h3>
-        <button class="actionBtn">Send Happiness</button>
+        <button class="actionBtn" role="Shop Now" aria-checked="false">Send Happiness</button>
       </div>
 
 
       <!-- products -->
-      <div class="products">
-        <div id="firstimage">
+      <div  class="products" aria-labelledby="the products">
+        <div id="firstimage" role="button" aria-pressed="true" tabindex="0">
           <figure>
             <img src="src/lavender.jpeg" alt="the first product" style="width:100%">
             <p class="titles">Lavender Dream Bouquet</p>          
             <figcaption>Indulge in the calming fragrance of lavender with our Lavender Dream Bouquet</figcaption>
           </figure>
         </div>
-        <div id="secondimage">
+        <div id="secondimage" role="button" aria-pressed="true" tabindex="0">
           <figure>
             <img src="src/orchid.jpeg" alt="the second product" style="width:100%">
             <p class="titles">Exquisite Orchid Paradise</p>          
             <figcaption>Graceful and enchanting, our white orchid plant is a symbol of<br> refinement and luxury. </figcaption>
           </figure>
         </div>
-        <div id="thirdimage">
+        <div id="thirdimage" role="button" aria-pressed="true" tabindex="0">
           <figure>
             <img src="src/daisy.jpeg" alt="the third product" style="width:100%">
             <p class="titles">Sun-Kissed Daisy Bouquet</p>          
@@ -59,16 +59,15 @@
           </figure>
         </div>
       </div>
-
         <!-- Section testimonials -->
       <section id="testimonials" role="testimonials">
-        <div class="testimonials-container">
+        <div class="testimonials-container" role="button" aria-pressed="true" tabindex="0">
           <i class="fa-solid fa-user"></i> 
           <p><span>Jaber Ali.</span> Customer.</p>
           <p>The bouquet I ordered was absolutely beautiful! It arrived on time and was <br> even more stunning than the pictures online. Thank you for making our anniversary special.</p>
         </div>
     
-        <div class="testimonials-container">
+        <div class="testimonials-container" role="button" aria-pressed="true" tabindex="0">
           <i class="fa-solid fa-user"></i> 
           <p><span >Sarah Khalid.</span> Customer.</p>
           <p>I was impressed with the incredible service I received. The flowers were fresh, <br> the packaging was perfect, and the delivery was right on schedule. I'll definitely be ordering from you again.</p>
@@ -78,7 +77,7 @@
         <!-- Section form Newsletter -->
       <section class="formNewsletter">
         <form action="#">
-          <div class="form-container">
+          <div class="form-container" role="button" aria-pressed="true" tabindex="0">
             <h2>Subscribe to our Newsletter</h2>
             <p>Moon florist..</p>
           </div>
