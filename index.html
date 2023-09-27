@@ -13,51 +13,60 @@
 
   <!-- Header -->
 
-  <header class="header" role="button" aria-pressed="true">
-    <nav class="navHeader">
-      <img src="src/hicks.png" alt="the flower shop logo" style="width: 90px; height:90px ;"/>
-        <a href="/html/">Home</a> |
-        <a href="/css/">Occasions</a> |
-        <a href="/js/">Gifts</a> |
-        <a href="/python/">About Us</a>
+  <header role="button" aria-pressed="true">
+    <div class="headercontent">
+ 
+      <img class="logo" src="src/images/hicks.png" alt="the flower shop logo" style="width: 90px; height:90px ;"/>
+
+      <nav >
+        <ul class="nav__links">
+          <li class="nav_element"><a href="/Home/">Home</a></li>
+          <li class="nav_element"><a href="/Occasions/">Occasions</a></li>
+          <li class="nav_element"><a href="/Gifts/">Gifts</a> </li>
+          <li class="nav_element"> <a href="/AboutUs/">About Us</a></li>
+        </ul>
     </nav>
+    </div>
+    
   </header>
 
   <!-- Main -->
   <main>
       <!-- catchy Headlines -->
-    <section role="catchy Headlines"> 
-    <div class="container">
-      <div role="button" aria-pressed="true" tabindex="0" class="catchyHeadlines"> 
+    <section id="Hero" role="catchy Headlines"> 
+      <div  role="button" aria-pressed="true" tabindex="0" class="catchyHeadlines"> 
         <h1>Elevate Every Moment with Our Stunning Flower Arrangements</h1>
-        <h3> We curate every bouquet with love and care </h3>
+        <h3> We curate every bouquet with love and care! </h3>
         <button class="actionBtn" role="Shop Now" aria-checked="false">Send Happiness</button>
       </div>
-
+    </section>
       <!-- products -->
-      <div  class="products" aria-labelledby="the products">
-        <div id="firstimage" role="button" aria-pressed="true" tabindex="0">
-          <figure>
-            <img src="src/lavender.jpeg" alt="the first product" style="width:100%">
-            <p class="titles">Lavender Dream Bouquet</p>          
+      
+      <section  id="products" aria-labelledby="the products">
+        <div class="product" role="button" aria-pressed="true" tabindex="0">
+          <figure >
+            <img class="product__image" src="src/images/lavender.jpeg" alt="the first product" style="width:100%">
+            <p class="product__titles">Lavender Dream Bouquet</p>          
             <figcaption>Indulge in the calming fragrance of lavender with our Lavender Dream Bouquet</figcaption>
           </figure>
         </div>
-        <div id="secondimage" role="button" aria-pressed="true" tabindex="0">
+        <div class="product" role="button" aria-pressed="true" tabindex="0">
           <figure>
-            <img src="src/orchid.jpeg" alt="the second product" style="width:100%">
-            <p class="titles">Exquisite Orchid Paradise</p>          
+            <img class="product__image" src="src/images/orchid.jpeg" alt="the second product" style="width:100%">
+            <p class="product__titles ">Exquisite Orchid Paradise</p>          
             <figcaption>Graceful and enchanting, our white orchid plant is a symbol of<br> refinement and luxury. </figcaption>
           </figure>
         </div>
-        <div id="thirdimage" role="button" aria-pressed="true" tabindex="0">
+        <div class="product" role="button" aria-pressed="true" tabindex="0">
           <figure>
-            <img src="src/daisy.jpeg" alt="the third product" style="width:100%">
-            <p class="titles">Sun-Kissed Daisy Bouquet</p>          
+            <img class="product__image" src="src/images/daisy.jpeg" alt="the third product" style="width:100%">
+            <p class="product__titles ">Sun-Kissed Daisy Bouquet</p>          
             <figcaption>These cheerful blooms are perfect for celebrating birthdays,<br> sending get-well wishes, or simply spreading happiness.</figcaption>
           </figure>
         </div>
-      </div>
+      
+      </section>
+      
         <!-- Section testimonials -->
       <section id="testimonials" role="testimonials">
         <div class="testimonials-container" role="button" aria-pressed="true" tabindex="0">
@@ -71,10 +80,10 @@
           <p><span >Sarah Khalid.</span> Customer.</p>
           <p>I was impressed with the incredible service I received. The flowers were fresh, <br> the packaging was perfect, and the delivery was right on schedule. I'll definitely be ordering from you again.</p>
         </div>
-      </section>
+     </section>
 
         <!-- Section form Newsletter -->
-      <section class="formNewsletter">
+     <section class="formNewsletter">
         <form action="#">
           <div class="form-container" role="button" aria-pressed="true" tabindex="0">
             <h2>Subscribe to our Newsletter</h2>
@@ -95,7 +104,6 @@
         </form>
       </section>
     </div>
-    </section>
   </main>
 
 
