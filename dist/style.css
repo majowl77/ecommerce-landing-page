@@ -6,10 +6,17 @@ body {
   background-color: #f3ebe3  ;
   color: white;
   padding: 1rem;
+
+}
+.navHeader{
+  display: flex;
+  justify-content: space-between;
 }
 .footer{
   background-color: #f3ebe3  ;
   color:saddlebrown;
   padding: 1rem;
 }
+
 /*# sourceMappingURL=style.css.map */
+
