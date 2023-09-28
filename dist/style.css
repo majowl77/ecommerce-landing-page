@@ -113,9 +113,6 @@ header {
   padding-top: 20px;
   font-size: 40px;
   color:#a99f9a;
-  /* font-family: 'Montserrat', sans-serif;
-  font-family: 'Handlee', cursive; */
-
 }
 
 .products_container{
@@ -255,10 +252,6 @@ span {
   font-size: 1.5rem;
   color: #8c817c;
 }
-/* 
-figcaption{
-  padding-bottom: 0;
-} */
 
 
 /* testimonials section styling*/
@@ -270,7 +263,7 @@ figcaption{
   text-align: center;
 }
 .testimonial_heading{
-  padding-top: 200px;
+  padding-top: 100px;
   text-align: center;
   margin: 0 auto;
   font-size: 40px;
@@ -475,20 +468,13 @@ color: #494543 ;
   padding-left: 50px;
 }
 
-/* .footer_links_ul li a:hover{
-   
-} */
-/* .social-media{
-
-} */
-
 /* responsive: phone */
 @media only screen and (max-width: 600px) {
-  .header__content {
+  .headercontent {
     display: flex;
     flex-direction: column;
   }
-  .header__content ul {
+  .headercontent ul {
     display: flex;
     flex-direction: column;
   }
@@ -497,4 +483,28 @@ color: #494543 ;
     display: flex;
     flex-direction: column;
   }
+  .products_container{
+    display: grid;
+    grid-template-columns: 1fr ;
+
+  }
+  .testimonials_container{
+    display: flex;
+    flex-direction: column;
+  }
+  .Newsletter{
+    margin-right: 120px ;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-container{
+    width: 200px;
+  }
+  .input_formStyle{
+    width: 300px;
+  }
+  .formbtn{
+    padding:6px 10px;
+    margin-right: 60px;
+  } 
 }
