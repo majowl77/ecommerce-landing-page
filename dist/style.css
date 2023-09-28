@@ -48,7 +48,11 @@ header {
   background-position: center;
   background-size: cover;
   height: 700px;
-  padding-top: 110px;
+  padding-top: 180px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
 
 }
 .catchyHeadlines{
@@ -56,12 +60,14 @@ header {
   margin-left: 30px;
   width: 1000px;
   line-height: 1.2;
+  text-align: center;
+
   }
 #Hero h1{
   color: #8c817c;
    font-size: 3rem;
    padding-right: 270px;
-   word-wrap: break-word;
+   /* word-wrap: break-word; */
 }
 
 #Hero h3{
@@ -79,20 +85,27 @@ header {
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
-  margin: 40px 2px;
+  margin-top: 30px;
   cursor: pointer;
-  margin-left: 130px;
+  margin-right: 240px;
 }
+#Hero button:hover{
+  background-color: #f4e9e6 ; 
+  color: #8c817c;
+  border: 2px solid #f4e9e6;
 
 
+}
 #products{
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
+ grid-gap: 3rem;
+ margin-top: 70px;
 }
 .product{
   border-radius: 10px;
   background-color: #f4e9e6;
-  margin: 30px;
+  /* margin: 30px; */
 
 }
 .product__image{
@@ -111,11 +124,37 @@ figcaption{
   padding-bottom: 0;
 }
 
+.testimonials{
 
+}
+
+.formNewsletter{
+
+}
 .footer{
   background-color: #f3ebe3  ;
   color:saddlebrown;
   padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.footer_links_ul{
+  list-style: none;
+}
+.footer_links_ul li{
+  display: inline-block;
+  padding: 0 10px;
+}
+.footer_links_ul li a{
+text-decoration: none;
+color: #494543 ;
+padding: 35px;
+}
+
+.footer_links_ul li a:hover{
+   
+}
 
