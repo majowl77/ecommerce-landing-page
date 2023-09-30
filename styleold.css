@@ -231,7 +231,10 @@ span {
 
 /* testimonials section styling*/
 
+#testimonial{
+  background-color: #f4e9e6;
 
+}
 .testimonial_heading{
   padding-top: 100px;
   text-align: center;
