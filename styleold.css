@@ -13,7 +13,6 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  /* padding: 5px; */
 
 }
 .headercontent {
@@ -22,7 +21,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin: 0 auto; */
 }
 .logo{
   padding-left: 70px;
@@ -73,7 +71,6 @@ header {
   color: #8c817c;
    font-size: 3rem;
    padding-right: 270px;
-   /* word-wrap: break-word; */
 }
 
 #Hero h3{
@@ -130,9 +127,6 @@ header {
   width: 590px;
   margin: 50px auto;
   border-radius: 7px 7px 7px 7px;
-  /* VIA CSS MATIC https://goo.gl/cIbnS */
-  /* /* -webkit-box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.15); */
-  /* -moz-box-shadow: 0px 14px 22px 0px rgba(0, 0, 0, 0.15); */
   box-shadow: 0px 14px 17px 0px rgba(0, 0, 0, 0.15); 
 }
 .product-img {
@@ -202,7 +196,6 @@ span {
 
 .product-price-btn button {
   float: right;
-  /* display: inline-block; */
   height: 50px;
   width: 130px;
   margin: 0 40px 0 16px;
@@ -424,7 +417,6 @@ span {
 .footer_links_ul li a{
 text-decoration: none;
 color: #494543 ;
-/* padding: 35px; */
 }
 .copy_right{
   padding-top: 0;
