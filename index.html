@@ -6,11 +6,167 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="dist/style.css">
-  <title>SCSS Project</title>
+ <!-- FontAwesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <title>Flower Shop</title>
 </head>
-<body>
-  <header class="header">
-    <h1>Welcome to my SCSS Project</h1>
+  <!-- Header -->
+  <header role="button" aria-pressed="true">
+    <div class="headercontent">
+ 
+      <img class="logo" src="src/images/hicks.png" alt="the flower shop logo" style="width: 90px; height:90px ;"/>
+
+      <nav >
+        <ul class="nav__links">
+          <li class="nav_element"><a href="/Home/">Home</a></li>
+          <li class="nav_element"><a href="/Occasions/">Occasions</a></li>
+          <li class="nav_element"><a href="/Gifts/">Gifts</a> </li>
+          <li class="nav_element"> <a href="/AboutUs/">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+  <!-- Main -->
+  <main>
+      <!-- catchy Headlines -->
+    <section id="Hero" role="catchy Headlines"> 
+      <div class="catchyHeadlines"> 
+        <h1>Elevate Every Moment with Our Stunning Flower Arrangements</h1>
+        <p> We curate every bouquet with love and care! </p>
+        <button class="actionBtn" raria-label="Shop Now">Send Happiness</button>
+      </div>
+    </section>
+      <!-- products -->
+      
+      <section  id="products" aria-labelledby="the products">
+        <h2> <span class="span"></span>   Our Latest Products  <span class="span"></span></h2>
+        <div class="products_container">
+          <div class="product">
+            <div class="product-img">
+              <img src="src/images/lavender.jpeg" height="420" width="327">
+            </div>
+            <div class="product-info">
+              <div class="product-text">
+                <h1>Lavender Dream Bouquet</h1>
+                <p>Indulge in the calming fragrance of lavender with our Lavender Dream Bouquet. </p>
+              </div>
+              <div class="product-price-btn">
+                <p><span>78</span>$</p>
+                <button type="button">buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-img">
+              <img src="src/images/orchid.jpeg" height="420" width="327">
+            </div>
+            <div class="product-info">
+              <div class="product-text">
+                <h1>Exquisite Orchid Paradise</h1>
+                <p>Graceful and enchanting, our white orchid plant is a symbol of refinement and luxury.  </p>
+              </div>
+              <div class="product-price-btn">
+                <p><span>78</span>$</p>
+                <button type="button">buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-img">
+              <img src="src/images/daisy.jpeg" height="420" width="327">
+            </div>
+            <div class="product-info">
+              <div class="product-text">
+                <h1>Sun-Kissed Daisy Bouquet</h1>
+                <p>These cheerful blooms are perfect for celebrating birthdays, sending get-well wishes, or simply spreading happiness.  </p>
+              </div>
+              <div class="product-price-btn">
+                <p><span>78</span>$</p>
+                <button type="button">buy now</button>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+      </section>
+        <!-- Section testimonials -->
+    <section id="testimonials" role="testimonials">
+      <h2 class="testimonial_heading"> Testimonials </h2>
+       <div class="testimonials_container"> 
+          <figure class="testimonial_customers">
+            <figcaption>
+              <blockquote>
+                <p>The orchid plant I ordered was elegant and arrived in excellent condition. It added a touch of sophistication to my office space. I highly recommend your orchids.</p>
+              </blockquote>
+              <h3>Hassan Omar</h3>
+              <h4>Customer</h4>
+            </figcaption>
+          </figure>
+          <figure class="testimonial_customers">
+           <figcaption>
+             <blockquote>
+               <p>The bouquet I ordered was absolutely beautiful! It arrived on time and was <br> even more stunning than the pictures online. Thank you for making our anniversary special.</p>
+             </blockquote>
+             <h3>Jaber Ali</h3>
+             <h4>Customer</h4>
+           </figcaption>
+          </figure>
+          <figure class="testimonial_customers">
+            <figcaption>
+              <blockquote>
+                <p>I was impressed with the incredible service I received. The flowers were fresh, <br> the packaging was perfect, and the delivery was right on schedule. I'll definitely be ordering from you again. </p>
+              </blockquote>
+             <h3>Sarah Khalid</h3>
+             <h4>Customer</h4>
+            </figcaption>
+          </figure>
+       </div>
+     </section>
+
+        <!-- Section form Newsletter -->
+     <section class="Newsletter">
+        <form action="#"  class="formNewsletter">
+          <div class="form-container" role="button" aria-pressed="true" tabindex="0">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Hicksville florist..</p>
+          </div>
+        
+          <div class="form-container">
+            <input class="input_formStyle" type="text" placeholder="Name" name="name" required> </br>
+            <input class="input_formStyle" type="text" placeholder="Email address" name="mail" required>
+          </div>
+        
+          <div class="form-container">
+            <input  class="formbtn" type="submit" value="Subscribe">
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer_container">
+            
+      <div class="social_media">
+          <a href="https://www.facebook.com/" ><i class="fa-brands fa-square-facebook"></i></a>
+          <a  href="https://twitter.com"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a  href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+      <div class="footer_links">
+          <ul class="footer_links_ul">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Gifts</a></li>
+              <li><a href="#">About Us</a></li>
+          </ul>
+      </div>
+      <div class="copy_right">
+         <p>2023 Hicksville florist | All Rights Reserved</p>
+      </div>
+
+    </div>
+  </footer>
 </body>
 </html>
